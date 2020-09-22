@@ -98,8 +98,12 @@ github.com/drone/envsubst v1.0.3-0.20200709231038-aa43e1c1a629 h1:rIaZZalMGGPb2c
 github.com/drone/envsubst v1.0.3-0.20200709231038-aa43e1c1a629/go.mod h1:N2jZmlMufstn1KEqvbHjw40h1KyTmnVzHcSc9bFiJ2g=
 github.com/drone/go-license v1.0.2 h1:7OwndfYk+Lp/cGHkxe4HUn/Ysrrw3WYH2pnd99yrkok=
 github.com/drone/go-license v1.0.2/go.mod h1:fGRHf+F1cEaw3YVYiJ6js3G3dVhcxyS617RnNRUMsms=
+github.com/drone/go-login v1.0.3 h1:YmZMUoWWd3QrgmobC1DcExFjW7w2ZEBO1R1VeeobIRU=
+github.com/drone/go-login v1.0.3/go.mod h1:FLxy9vRzLbyBxoCJYxGbG9R0WGn6OyuvBmAtYNt43uw=
 github.com/drone/go-login v1.0.4-0.20190311170324-2a4df4f242a2 h1:RGpgNkowJc5LAVn/ZONx70qmnaTA0z/3hHPzTBdAEO8=
 github.com/drone/go-login v1.0.4-0.20190311170324-2a4df4f242a2/go.mod h1:FLxy9vRzLbyBxoCJYxGbG9R0WGn6OyuvBmAtYNt43uw=
+github.com/drone/go-login v1.0.4-0.20190523173805-3a1fffcbc202 h1:ZF7r7qfe37MRW9Gikw6vT3m561VQfZc6rk0i3oyNdp8=
+github.com/drone/go-login v1.0.4-0.20190523173805-3a1fffcbc202/go.mod h1:FLxy9vRzLbyBxoCJYxGbG9R0WGn6OyuvBmAtYNt43uw=
 github.com/drone/go-scm v1.7.1-0.20200621203823-3731ec1f1136 h1:RKSqrIGBdttX999GgY7J2n1zIJ3QVXH8coI4ObTBB9E=
 github.com/drone/go-scm v1.7.1-0.20200621203823-3731ec1f1136/go.mod h1:lXwfbyrIJwFFME5TpzavkwO2T5X8yBK6t6cve7g91x0=
 github.com/drone/signal v1.0.0 h1:NrnM2M/4yAuU/tXs6RP1a1ZfxnaHwYkd0kJurA1p6uI=
@@ -352,6 +356,8 @@ github.com/segmentio/ksuid v1.0.2 h1:9yBfKyw4ECGTdALaF09Snw3sLJmYIX6AbPJrAy6MrDc
 github.com/segmentio/ksuid v1.0.2/go.mod h1:BXuJDr2byAiHuQaQtSKoXh1J0YmUDurywOXgB2w+OSU=
 github.com/sergi/go-diff v1.0.0 h1:Kpca3qRNrduNnOQeazBd0ysaKrUJiIuISHxogkT9RPQ=
 github.com/sergi/go-diff v1.0.0/go.mod h1:0CfEIISq7TuYL3j771MWULgwwjU+GofnZX9QAmXWZgo=
+github.com/shy-drone/go-scm v1.7.2-0.20200922033050-4f3eb69cef50 h1:reBaAkbDrIVSYVIRH5v4iHc4RFI23D0NDYxFFSSOHgg=
+github.com/shy-drone/go-scm v1.7.2-0.20200922033050-4f3eb69cef50/go.mod h1:lXwfbyrIJwFFME5TpzavkwO2T5X8yBK6t6cve7g91x0=
 github.com/sirupsen/logrus v1.6.0 h1:UBcNElsrwanuuMsnGSlYmtmgbb23qDR5dG+6X6Oo89I=
 github.com/sirupsen/logrus v1.6.0/go.mod h1:7uNnSEd1DgxDLC74fIahvMZmmYsHGZGEOFrfsX/uA88=
 github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d h1:zE9ykElWQ6/NYmHa3jpm/yHnI4xSofP+UP6SpjHcSeM=

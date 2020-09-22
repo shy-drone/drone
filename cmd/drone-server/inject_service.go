@@ -216,6 +216,7 @@ func provideDatadog(
 			Subscription:     license.Subscription,
 			EnableGithub:     config.IsGitHub(),
 			EnableGithubEnt:  config.IsGitHubEnterprise(),
+			EnableGitee:      config.IsGitee(),
 			EnableGitlab:     config.IsGitLab(),
 			EnableBitbucket:  config.IsBitbucket(),
 			EnableStash:      config.IsStash(),

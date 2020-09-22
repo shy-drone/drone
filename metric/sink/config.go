@@ -24,6 +24,7 @@ type Config struct {
 	Subscription     string
 	EnableGithub     bool
 	EnableGithubEnt  bool
+	EnableGitee      bool
 	EnableGitlab     bool
 	EnableBitbucket  bool
 	EnableStash      bool

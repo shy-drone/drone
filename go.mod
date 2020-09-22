@@ -19,7 +19,7 @@ require (
 	github.com/drone/drone-yaml v1.2.4-0.20200326192514-6f4d6dfb39e4
 	github.com/drone/envsubst v1.0.3-0.20200709231038-aa43e1c1a629
 	github.com/drone/go-license v1.0.2
-	github.com/drone/go-login v1.0.4-0.20190311170324-2a4df4f242a2
+	github.com/drone/go-login v1.0.4-0.20190523173805-3a1fffcbc202
 	github.com/drone/go-scm v1.7.1-0.20200621203823-3731ec1f1136
 	github.com/drone/signal v1.0.0
 	github.com/dustin/go-humanize v1.0.0
@@ -74,3 +74,5 @@ require (
 replace github.com/h2non/gock => gopkg.in/h2non/gock.v1 v1.0.14
 
 go 1.13
+
+replace github.com/drone/go-scm => github.com/shy-drone/go-scm v1.7.2-0.20200922033050-4f3eb69cef50

@@ -83,6 +83,7 @@ type (
 		Bitbucket Bitbucket
 		Gitea     Gitea
 		Github    Github
+		Gitee     Gitee
 		GitLab    GitLab
 		Gogs      Gogs
 		Stash     Stash
@@ -369,6 +370,17 @@ type (
 		Debug        bool     `envconfig:"DRONE_GITHUB_DEBUG"`
 	}
 
+	// Gitee provides the gitee client configuration.
+	Gitee struct {
+		Server       string `envconfig:"DRONE_GITEE_SERVER" default:"https://gitee.com"`
+		APIServer    string `envconfig:"DRONE_GITEE_API_SERVER" default:"https://gitee.com/api/v5/"`
+		ClientID     string `envconfig:"DRONE_GITEE_CLIENT_ID"`
+		ClientSecret string `envconfig:"DRONE_GITEE_CLIENT_SECRET"`
+		SkipVerify   bool   `envconfig:"DRONE_GITEE_SKIP_VERIFY"`
+		RateLimit    int    `envconfig:"DRONE_GITEE_USER_RATELIMIT"`
+		Debug        bool   `envconfig:"DRONE_GITEE_DEBUG"`
+	}
+
 	// GitLab provides the gitlab client configuration.
 	GitLab struct {
 		Server       string `envconfig:"DRONE_GITLAB_SERVER" default:"https://gitlab.com"`
@@ -462,6 +474,12 @@ func (c *Config) IsGitHub() bool {
 // integration is activated.
 func (c *Config) IsGitHubEnterprise() bool {
 	return c.IsGitHub() && !strings.HasPrefix(c.Github.Server, "https://github.com")
+}
+
+// IsGitee returns true if the Gitee integration
+// is activated.
+func (c *Config) IsGitee() bool {
+	return c.Gitee.ClientID != ""
 }
 
 // IsGitLab returns true if the GitLab integration
